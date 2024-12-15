@@ -1,0 +1,103 @@
+
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .option {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .option:hover, .option input:checked + label {
+    background-color: #f0f8ff;
+  }
+  
+  .option.popular {
+    border: 2px solid #008080;
+  }
+  
+  .bundle {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .discount {
+    color: #008080;
+    font-weight: bold;
+  }
+  
+  .tag {
+    font-size: 0.8em;
+    background-color: #008080;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 3px;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .selectors {
+    margin-top: 10px;
+  }
+  
+  .pair {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  label {
+    font-size: 0.9em;
+  }
+  
+  select {
+    padding: 3px;
+  }
+  
+  .total {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 1.1em;
+  }
+  
+  .add-to-cart {
+    width: 100%;
+    padding: 10px;
+    background-color: #008080;
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #006666;
+  } 
+  
